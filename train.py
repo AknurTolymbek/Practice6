@@ -6,6 +6,8 @@ import joblib
 import mlflow
 import mlflow.sklearn
 
+mlflow.set_tracking_uri("http://localhost:5001")
+
 # Параметры модели
 N_ESTIMATORS = 100
 RANDOM_STATE = 42
